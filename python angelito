@@ -1,0 +1,26 @@
+num1 = float(input("Introduce el primer número: "))
+num2 = float(input("Introduce el segundo número: "))
+
+
+suma = num1 + num2
+resta = num1 - num2
+multiplicacion = num1 * num2
+division = num1 / num2 if num2 != 0 else "Error: División por cero"
+modulo = num1 % num2 if num2 != 0 else "Error: Módulo por cero"
+
+
+
+
+
+
+
+precio_original = float(input("Introduce el precio del artículo: "))
+
+# Definir el descuento del 15%
+descuento = 0.15
+
+# Calcular el precio del artículo después de aplicar el descuento
+precio_final = precio_original - (precio_original * descuento)
+
+# Mostrar el resultado
+print(f"El precio final después de aplicar un descuento del 15% es: {precio_final:.2f}")
